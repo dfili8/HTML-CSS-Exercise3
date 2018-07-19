@@ -1,0 +1,44 @@
+	
+* {	
+    border:	2px	solid	cornflowerblue;	
+    margin: 5px;	
+    padding: 3px;	
+}	
+
+html, body {	
+    margin:	0;	
+    padding: 0;	
+    border:	none;	
+}	
+body {	
+    height:	100vh;	
+}	
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+h2 {
+    flex:1;
+}
+
+section {
+    display: flex;
+}
+
+.main {
+    flex:3;
+    height: 100vh;
+}
+
+.side-bar {
+    flex:1;
+    height: 100vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
